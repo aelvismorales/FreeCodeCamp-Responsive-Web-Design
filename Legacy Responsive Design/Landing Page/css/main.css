@@ -84,12 +84,13 @@ body{
     gap:30px;
 }
 .product{
-    width: 25vh;
+    width: 24vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     border: 1px solid black;
+    margin-left: 25px;
     
 }
 
