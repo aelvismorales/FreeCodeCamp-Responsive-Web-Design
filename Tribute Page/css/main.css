@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color:#EEEEEE;
+    
+  }
+
+  #title{
+    text-align:center;
+    
+  }
+  #subtitle{
+    text-align:center;
+
+  }
+  #img-div{
+    display: block;
+    text-align: center;
+    background-color: white;
+  }
+  #image{
+    max-width:100%;
+    height:auto;
+
+  }
+  
+  #img-caption{
+    margin-left:auto;
+    margin-right: auto;
+  }
+  
+  #headline{
+    text-align:center;
+  }
+
+  #tribute-info{
+    width: 550px;
+    margin: 0 auto 50px auto;
+  }
+
+  #tribute-info ul li{
+    margin: 16px 0 16px 0;
+  }
+  
+  #tribute-info p{
+    font-style: italic;
+  }
+  h3{
+    text-align: center;
+  }
+
+  @media (max-width:767px){
+    html{
+        width: 100vw;
+        margin: 0;
+    }
+    #tribute-info{
+        width: 80vw;
+    }
+
+  }
