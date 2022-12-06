@@ -1,0 +1,128 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body{
+    font-family: 'Lato',sans-serif;
+    background-color:#eee ;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-around;
+    background-color:rgb(245,238,238) ;
+    flex-wrap: wrap;
+}
+.top-nav{
+    width: 350px;
+}
+.top-nav img{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+.top-elements{
+    display: flex;
+    gap: 20px 30px;
+    align-items: center;
+}
+.top-elements a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin:0 auto;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-form{
+    display: block;
+}
+.hero-form input[type='email']{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+.hero-form input[type='submit']{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0 0 70px;
+    border: 0px;
+    background-color: #f1c40f;
+}
+.grid{
+    display: flex;
+
+}
+#features .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color:darkorange;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#how-works{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#pricing{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.product{
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.level{
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(166, 160, 160);
+}
+
+.product ul{
+    list-style: none;
+    margin-right: 15%;
+}
+.btn{
+    max-width: 150px;
+    margin-left: 25%;
+    background-color: #f1c40f;
+    border: 0;
+    height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer span{
+    display: flex;
+    justify-content: flex-end;
+}
+
